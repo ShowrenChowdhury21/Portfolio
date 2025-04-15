@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Shield, ChevronDown, MapPin, Mail, Linkedin, Code, BriefcaseBusiness, Lock, FileText, FileDown } from "lucide-react";
+import { Shield, ChevronDown, MapPin, Mail, Linkedin, Code, BriefcaseBusiness, Lock, FileText } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
@@ -15,10 +15,26 @@ const Hero = () => {
 
   // Handle CV download
   const handleCVDownload = (type: string) => {
-    // In a real implementation, this would download the appropriate file
-    console.log(`Downloading ${type} CV`);
-    // You would implement actual file download logic here
-    alert(`Downloading ${type} CV`);
+    let fileUrl = '';
+    
+    // Set the file URL based on the selected CV type
+    if (type === 'IT Support') {
+      fileUrl = '/resumes/showren_chowdhury_it_support.pdf';
+    } else if (type === 'Cybersecurity Analyst') {
+      fileUrl = '/resumes/showren_chowdhury_cybersecurity.pdf';
+    }
+    
+    // Create an anchor element
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.setAttribute('download', `Showren_Chowdhury_${type.replace(/\s+/g, '_')}_Resume.pdf`);
+    link.setAttribute('target', '_blank'); // In case download fails, open in new tab
+    
+    // Append to the document, click it, and then remove it
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
     setIsCVDropdownOpen(false); // Close dropdown after selection
   };
 
@@ -194,7 +210,7 @@ const Hero = () => {
               whileHover={{ y: -5 }}
             >
               <BriefcaseBusiness className="h-5 w-5 text-primary mr-2" />
-              <span className="text-sm font-medium">IT Analyst & Support</span>
+              <span className="text-sm font-medium">IT Analyst</span>
             </motion.div>
             
             <motion.div
@@ -212,7 +228,7 @@ const Hero = () => {
           </motion.h1>
             
         <motion.p className="text-xl md:text-2xl mb-8 text-white/90 font-light" variants={itemVariants}>
-          Securing digital assets through advanced threat detection and proactive defense strategies supporting IT infrastructure
+          Securing digital assets through advanced threat detection and proactive defense strategies supporting IT infrastructure.
         </motion.p>
 
 
@@ -281,20 +297,20 @@ const Hero = () => {
               
               {/* CV Dropdown Menu */}
               {isCVDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-60 rounded-xl overflow-hidden z-50 border border-primary/20 shadow-lg shadow-primary/10">
+                <div className="absolute right-0 mt-2 w-64 rounded-xl overflow-hidden z-50 border border-primary/20 shadow-lg shadow-primary/10">
                   <div className="bg-gradient-to-br from-background/95 to-background/80 backdrop-blur-lg">
                     <button 
-                        className="w-full text-left px-4 py-3 hover:bg-accent/10 transition-colors flex items-center space-x-2"
-                        onClick={() => handleCVDownload('Cybersecurity Analyst')}
-                      >
-                        <FileDown className="h-5 w-5 text-accent/80" />
-                        <span>Cybersecurity Analyst</span>
+                      className="w-full text-left px-4 py-3 hover:bg-accent/10 transition-colors flex items-center space-x-2"
+                      onClick={() => handleCVDownload('Cybersecurity Analyst')}
+                    >
+                      <Shield className="h-5 w-5 text-accent/80" />
+                      <span>Cybersecurity Analyst</span>
                     </button>
                     <button 
                       className="w-full text-left px-4 py-3 hover:bg-primary/10 transition-colors flex items-center space-x-2 border-b border-primary/10"
                       onClick={() => handleCVDownload('IT Support')}
                     >
-                      <FileDown className="h-5 w-5 text-primary/80" />
+                      <BriefcaseBusiness className="h-5 w-5 text-primary/80" />
                       <span>IT Support</span>
                     </button>
                   </div>
