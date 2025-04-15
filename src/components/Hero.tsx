@@ -1,11 +1,26 @@
 import React, { useEffect, useState } from "react";
-import { Shield, ChevronDown, MapPin, Mail, Linkedin, Code, BriefcaseBusiness, Lock, FileText } from "lucide-react";
+import { Shield, ChevronDown, MapPin, Mail, Linkedin, Code, BriefcaseBusiness, Lock, FileText, FileDown } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false); // State to manage loading for animations
   const [canvas, setCanvas] = useState<HTMLCanvasElement | null>(null); // Canvas state
+  const [isCVDropdownOpen, setIsCVDropdownOpen] = useState(false); // State for CV dropdown
+
+  // Toggle CV dropdown
+  const toggleCVDropdown = () => {
+    setIsCVDropdownOpen(!isCVDropdownOpen);
+  };
+
+  // Handle CV download
+  const handleCVDownload = (type: string) => {
+    // In a real implementation, this would download the appropriate file
+    console.log(`Downloading ${type} CV`);
+    // You would implement actual file download logic here
+    alert(`Downloading ${type} CV`);
+    setIsCVDropdownOpen(false); // Close dropdown after selection
+  };
 
   useEffect(() => {
     setIsLoaded(true);
@@ -179,7 +194,7 @@ const Hero = () => {
               whileHover={{ y: -5 }}
             >
               <BriefcaseBusiness className="h-5 w-5 text-primary mr-2" />
-              <span className="text-sm font-medium">IT Analyst</span>
+              <span className="text-sm font-medium">IT Analyst & Support</span>
             </motion.div>
             
             <motion.div
@@ -197,7 +212,7 @@ const Hero = () => {
           </motion.h1>
             
         <motion.p className="text-xl md:text-2xl mb-8 text-white/90 font-light" variants={itemVariants}>
-          Securing digital assets through advanced threat detection and proactive defense strategies
+          Securing digital assets through advanced threat detection and proactive defense strategies supporting IT infrastructure
         </motion.p>
 
 
@@ -249,15 +264,43 @@ const Hero = () => {
                 <span className="absolute inset-0 bg-accent/20 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
               </a>
             </Button>            
-            <Button 
-              size="lg" 
-              variant="secondary" 
-              className="font-medium relative overflow-hidden group hover:shadow-lg hover:shadow-primary/10 transition-all duration-300" 
-            >
-              <FileText className="mr-2 h-5 w-5" />
-              <span className="relative z-10">Download CV</span>
-              <span className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
-            </Button>
+            
+            {/* CV Download Button with Dropdown */}
+            <div className="relative inline-block">
+              <Button 
+                size="lg" 
+                variant="secondary" 
+                className="font-medium relative overflow-hidden group hover:shadow-lg hover:shadow-primary/10 transition-all duration-300"
+                onClick={toggleCVDropdown}
+              >
+                <FileText className="mr-2 h-5 w-5" />
+                <span className="relative z-10">Download Resume</span>
+                <ChevronDown className={`ml-2 h-4 w-4 transition-transform ${isCVDropdownOpen ? 'rotate-180' : ''}`} />
+                <span className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
+              </Button>
+              
+              {/* CV Dropdown Menu */}
+              {isCVDropdownOpen && (
+                <div className="absolute right-0 mt-2 w-60 rounded-xl overflow-hidden z-50 border border-primary/20 shadow-lg shadow-primary/10">
+                  <div className="bg-gradient-to-br from-background/95 to-background/80 backdrop-blur-lg">
+                    <button 
+                        className="w-full text-left px-4 py-3 hover:bg-accent/10 transition-colors flex items-center space-x-2"
+                        onClick={() => handleCVDownload('Cybersecurity Analyst')}
+                      >
+                        <FileDown className="h-5 w-5 text-accent/80" />
+                        <span>Cybersecurity Analyst</span>
+                    </button>
+                    <button 
+                      className="w-full text-left px-4 py-3 hover:bg-primary/10 transition-colors flex items-center space-x-2 border-b border-primary/10"
+                      onClick={() => handleCVDownload('IT Support')}
+                    >
+                      <FileDown className="h-5 w-5 text-primary/80" />
+                      <span>IT Support</span>
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
           </motion.div>
         </div>
       </motion.div>
