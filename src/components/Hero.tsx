@@ -210,7 +210,7 @@ const Hero = () => {
               whileHover={{ y: -5 }}
             >
               <BriefcaseBusiness className="h-5 w-5 text-primary mr-2" />
-              <span className="text-sm font-medium">IT Analyst</span>
+              <span className="text-sm font-medium">IT Analyst & Support</span>
             </motion.div>
             
             <motion.div
