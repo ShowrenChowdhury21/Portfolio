@@ -34,28 +34,46 @@ const CertificationsList = ({ showAll = false }: CertificationsListProps) => {
     {
       name: "CompTIA Security+",
       issuer: "CompTIA",
-      date: "Expected May 2025",
+      date: "Expected June 2025",
       logo: "/placeholder.svg",
       color: "from-green-400 to-green-600",
       linkText: "In Progress",
       link: ""
     },
     {
-      name: "Let's Defend - SOC Analyst Path",
+      name: "SOC Analyst Path",
       issuer: "Let's Defend",
-      date: "Expected April 2025",
+      date: "May 2025",
       logo: "/placeholder.svg",
       color: "from-red-400 to-red-600",
-      linkText: "In Progress",
-      link: ""
+      linkText: "View Certificate",
+      link: "https://app.letsdefend.io/certificate/show/a40eefce-cdf5-482e-91eb-6ec0ddcf3512"
     },
     {
-      name: "Certified Ethical Hacker (CEH)",
-      issuer: "EC-Council",
-      date: "Expected 2025",
+      name: "Malware Analysis Path",
+      issuer: "Let's Defend",
+      date: "May 2025",
       logo: "/placeholder.svg",
       color: "from-yellow-400 to-yellow-600",
-      linkText: "Planned",
+      linkText: "View Certificate",
+      link: "https://app.letsdefend.io/certificate/show/a3172fab-50c0-4c88-9e80-f96c5179dd23"
+    },
+    {
+      name: "Information Security Specialist",
+      issuer: "Let's Defend",
+      date: "May 2025",
+      logo: "/placeholder.svg",
+      color: "from-cyan-400 to-cyan-600",
+      linkText: "View Certificate",
+      link: "https://app.letsdefend.io/certificate/show/a3172fab-50c0-4c88-9e80-f96c5179dd23"
+    },
+    {
+      name: "AWS SycOps",
+      issuer: "AWS",
+      date: "Expected July 2025",
+      logo: "/placeholder.svg",
+      color: "from-blue-400 to-blue-600",
+      linkText: "In Progress",
       link: ""
     },
     {
