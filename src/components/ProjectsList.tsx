@@ -34,7 +34,7 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
     {
       title: "Building a Malware Analysis Lab & Analyzing Static & Dynamic Malware",
       description: "We have tried to build a malware analysis lab to examine static and dynamic malware samples. Analyzed file behaviour, strings, API calls, and registry changes using tools like PEiD, Ghidra, Procmon, and Wireshark. The goal was to understand malware functionality and indicators of compromise.",
-      image: "https://www.pexels.com/photo/person-using-black-laptop-computer-5475752/",
+      image: "https://img.freepik.com/free-photo/hacked-unprotected-system-dark-background-3d-illustration_1419-2813.jpg",
       tags: ["Malware", "Detection", "Threat Analysis", "Cybersecurity"],
       githubUrl: "https://github.com/ShowrenChowdhury21/Building-a-Malware-Analysis-Lab-and-Analyzing-Static-and-Dynamic-Malware",
       period: "May 2025",
@@ -52,7 +52,7 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
     {
       title: "Analyzing & Investigating Web Attacks",
       description: "This project showcases my hands-on investigation of web-based attacks via LetsDefend’s SOC Analyst path. It covers HTTP log analysis, detection of threats like command injection, alert triage, and incident handling using SIEM tools and threat intelligence techniques.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=500",
+      image: "https://img.freepik.com/free-photo/cybersecurity-concept-collage-design_23-2151877154.jpg?t=st=1748093530~exp=1748097130~hmac=779b90459ab29fde67873d373203d1a3d0e4d96323ca982441d5df1292d787a6&w=2000",
       tags: ["Web Attacks", "Cybersecurity", "Security Analysi", "Threat Analysis"],
       githubUrl: "https://github.com/ShowrenChowdhury21/Analyzing-and-Investigating-Web-Attacks",
       period: "May 2025",
@@ -61,7 +61,7 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
     {
       title: "Quantum Computing in recent era of cryptography",
       description: "Quantum computing threatens current cryptographic systems by breaking algorithms based on factoring and discrete logs. This paper explores quantum attacks, assesses post-quantum cryptography (e.g., lattice-based), and urges collaboration for secure migration to quantum-resistant standards.",
-      image: "https://unsplash.com/photos/background-pattern-ERdTJQTtsbE",
+      image: "https://img.freepik.com/free-photo/ai-powered-device-concept_23-2151924113.jpg?t=st=1748093563~exp=1748097163~hmac=5b55fd7fedf2062740e12cf09e0111e534f3ec260f8c059578c270cf281c6174&w=2000",
       tags: ["Quantum Computing", "cryptography", "Recent Development", "Cybersecurity"],
       githubUrl: "https://github.com/ShowrenChowdhury21/Quantum-Computing-in-recent-era-of-cryptography",
       period: "November 2024",
@@ -70,7 +70,7 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
     {
       title: "Honeypot Deployment in Smart Grid for enhanced security",
       description: "Smart grids increase cyber risks in systems like SCADA and IoT. Honeypots, as deception tools, detect threats and profile attackers. This study explores their types, challenges, and AI-based advances, supporting their integration into standards like NIST CSF and IEC 62351.",
-      image: "https://unsplash.com/photos/a-small-toy-sitting-on-top-of-a-desk-next-to-a-keyboard-NaBZhyPD2uc",
+      image: "https://img.freepik.com/free-photo/dropbox-icon-line-icon-connection-circuit-board_1379-896.jpg?t=st=1748093602~exp=1748097202~hmac=9435f325ed5bdf7501ee197b4bbeacc79c3f1bccdffb347b8bca3805d898ab4e&w=2000",
       tags: ["Honeypot Deployment", "Smart Grid", "Cloud", "Security"],
       githubUrl: "https://github.com/ShowrenChowdhury21/Honeypot-deployment-in-Smart-Grid-for-enhanced-security",
       period: "April 2025",
@@ -79,7 +79,7 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
     {
       title: "Face recognition using pre trained inception model using transfer learning",
       description: "In this project, we will be using a pre-trained inception model inspired by Googles FaceNet to create a face recognition model that trains on custom dataset. This project was done for my university course Computer Vision and Pattern recognition.",
-      image: "https://unsplash.com/photos/a-man-with-blue-eyes-and-a-black-background-GkwnyqRMD70",
+      image: "https://img.freepik.com/free-photo/facial-recognition-software_52683-104208.jpg?t=st=1748093694~exp=1748097294~hmac=1bffdfc5a58a168a9f79e9681baa0cf72d988fb31eb02627df51ce0e4254880e&w=2000",
       tags: ["Transfer learning", "Face recognition", "Google FaceNet", "Deep Learning"],
       githubUrl: "https://github.com/ShowrenChowdhury21",
       period: "2020",
