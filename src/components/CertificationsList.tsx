@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -18,9 +17,10 @@ interface Certification {
 
 interface CertificationsListProps {
   showAll?: boolean;
+  limit?: number;
 }
 
-const CertificationsList = ({ showAll = false }: CertificationsListProps) => {
+const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListProps) => {
   const certifications: Certification[] = [
     {
       name: "Cybersecurity Professional Certificate",
@@ -96,8 +96,8 @@ const CertificationsList = ({ showAll = false }: CertificationsListProps) => {
     }
   ];
 
-  // Display only the first 3 certifications if not showing all
-  const displayCertifications = showAll ? certifications : certifications.slice(0, 3);
+  // Display certifications based on showAll flag and limit
+  const displayCertifications = showAll ? certifications : certifications.slice(0, limit);
 
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
