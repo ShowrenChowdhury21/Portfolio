@@ -43,7 +43,7 @@ const CertificationsList = ({ showAll = false }: CertificationsListProps) => {
     {
       name: "SOC Analyst Path",
       issuer: "Let's Defend",
-      date: "May 2025",
+      date: "2025",
       logo: "/placeholder.svg",
       color: "from-red-400 to-red-600",
       linkText: "View Certificate",
@@ -52,7 +52,7 @@ const CertificationsList = ({ showAll = false }: CertificationsListProps) => {
     {
       name: "Malware Analysis Path",
       issuer: "Let's Defend",
-      date: "May 2025",
+      date: "2025",
       logo: "/placeholder.svg",
       color: "from-yellow-400 to-yellow-600",
       linkText: "View Certificate",
@@ -61,7 +61,7 @@ const CertificationsList = ({ showAll = false }: CertificationsListProps) => {
     {
       name: "Information Security Specialist",
       issuer: "Let's Defend",
-      date: "May 2025",
+      date: "2025",
       logo: "/placeholder.svg",
       color: "from-cyan-400 to-cyan-600",
       linkText: "View Certificate",
