@@ -27,7 +27,7 @@ const Certifications = () => {
           </p>
         </motion.div>
 
-        <CertificationsList showAll={false} />
+        <CertificationsList showAll={false} limit={6} />
 
         <motion.div 
           className="text-center mt-12"
