@@ -40,7 +40,7 @@ const Experience = () => {
       degree: "Master of Engineering in Information Systems Security",
       institution: "Concordia University",
       location: "Montreal, Canada",
-      period: "2023 - 2025 (Expected)",
+      period: "Sep 2023 - April 2025",
       description: "Specializing in advanced cybersecurity practices including penetration testing, malware analysis, and cloud security architecture. Involved in research on AI-assisted threat detection systems.",
       focusAreas: ['Network Security', 'Cryptography', 'Ethical Hacking', 'Cloud Security', 'Quantum Computing', 'OS Security', 'Malware Analysis']
     },
