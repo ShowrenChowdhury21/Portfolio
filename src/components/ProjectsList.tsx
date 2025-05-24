@@ -59,7 +59,7 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
       color: "from-green-500/20 to-emerald-400/20"
     },
     {
-      title: "Quantum Computing in recent era of cryptography",
+      title: "Quantum Computing in Recent Era of Cryptography",
       description: "Quantum computing threatens current cryptographic systems by breaking algorithms based on factoring and discrete logs. This paper explores quantum attacks, assesses post-quantum cryptography (e.g., lattice-based), and urges collaboration for secure migration to quantum-resistant standards.",
       image: "https://img.freepik.com/free-photo/ai-powered-device-concept_23-2151924113.jpg?t=st=1748093563~exp=1748097163~hmac=5b55fd7fedf2062740e12cf09e0111e534f3ec260f8c059578c270cf281c6174&w=2000",
       tags: ["Quantum Computing", "cryptography", "Recent Development", "Cybersecurity"],
@@ -68,7 +68,7 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
       color: "from-yellow-500/20 to-amber-400/20"
     },
     {
-      title: "Honeypot Deployment in Smart Grid for enhanced security",
+      title: "Honeypot Deployment in Smart Grid for Enhanced Security",
       description: "Smart grids increase cyber risks in systems like SCADA and IoT. Honeypots, as deception tools, detect threats and profile attackers. This study explores their types, challenges, and AI-based advances, supporting their integration into standards like NIST CSF and IEC 62351.",
       image: "https://img.freepik.com/free-photo/dropbox-icon-line-icon-connection-circuit-board_1379-896.jpg?t=st=1748093602~exp=1748097202~hmac=9435f325ed5bdf7501ee197b4bbeacc79c3f1bccdffb347b8bca3805d898ab4e&w=2000",
       tags: ["Honeypot Deployment", "Smart Grid", "Cloud", "Security"],
@@ -77,7 +77,7 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
       color: "from-sky-500/20 to-blue-400/20"
     },
     {
-      title: "Face recognition using pre trained inception model using transfer learning",
+      title: "Face Recognition using Pre-Trained Inception Model using Transfer Learning",
       description: "In this project, we will be using a pre-trained inception model inspired by Googles FaceNet to create a face recognition model that trains on custom dataset. This project was done for my university course Computer Vision and Pattern recognition.",
       image: "https://img.freepik.com/free-photo/facial-recognition-software_52683-104208.jpg?t=st=1748093694~exp=1748097294~hmac=1bffdfc5a58a168a9f79e9681baa0cf72d988fb31eb02627df51ce0e4254880e&w=2000",
       tags: ["Transfer learning", "Face recognition", "Google FaceNet", "Deep Learning"],
