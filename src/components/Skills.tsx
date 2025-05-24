@@ -203,6 +203,134 @@ const WiresharkIcon = () => (
   </svg>
 );
 
+const ThreatIntelIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM11 16v2h2v-2h-2zm0-6v4h2v-4h-2z"/>
+  </svg>
+);
+
+const MitreIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M3 3v18h18V3H3zm16 16H5V5h14v14zm-2-12h-3v2h3V7zm0 4h-3v2h3v-2zm0 4h-3v2h3v-2zM6 7h3v2H6V7zm0 4h3v2H6v-2zm0 4h3v2H6v-2zm4-8h3v2h-3V7zm0 4h3v2h-3v-2zm0 4h3v2h-3v-2z"/>
+  </svg>
+);
+
+const KillChainIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16.01 14 12l4-4-.01-.01H18V2H6zm2 2h8v2.5l-4 4-4-4V4zm8 12.5V20H8v-3.5l4-4 4 4z"/>
+  </svg>
+);
+
+const ForensicsIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7.01 5 5 7.01 5 9.5S7.01 14 9.5 14 14 11.99 14 9.5 11.99 5 9.5 5m2.5 3h-5v1h5V8z"/>
+  </svg>
+);
+
+const CryptoIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM8.9 6c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1v2H8.9V6zM16 16h-3v3h-2v-3H8v-2h3v-3h2v3h3v2z"/>
+  </svg>
+);
+
+const EDRIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+  </svg>
+);
+
+const ReverseEngIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M9 12l-4.5 4L9 20v-3h4v-2H9v-3zm12-8v8h-2V7.41l-9.29 9.3-1.42-1.42L17.59 6H11V4h10z"/>
+  </svg>
+);
+
+const GhidraIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m4 18H6V4h7v5h5v11Z"/>
+  </svg>
+);
+
+const PEStudioIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+  </svg>
+);
+
+const AnyRunIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M8 5v3h3v9l3-3V8h3V5H8z"/>
+  </svg>
+);
+
+const VirusTotalIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+  </svg>
+);
+
+const ShodanIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8m-1 2v2h2V6h-2m0 4v6h2v-6h-2Z"/>
+  </svg>
+);
+
+const NessusIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+  </svg>
+);
+
+const DIEIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M6 10.5C6 12.99 8.01 15 10.5 15s4.5-2.01 4.5-4.5S12.99 6 10.5 6 6 8.01 6 10.5zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2 14.5L9 14l1.5-4.5L16 12l-2 4.5z"/>
+  </svg>
+);
+
+const BinTextIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6m4 18H6V4h7v5h5v11m-4-6H8v-2h8v2m0-3H8V9h8v2z"/>
+  </svg>
+);
+
+const AutopsyIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16.01 14 12l4-4-.01-.01H18V2H6zm10 4h-2V4h2v2zM8 4h2v2H8V4zm0 14h2v2H8v-2zm8 2v-2h2v2h-2zm-4-6a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/>
+  </svg>
+);
+
+const SysmonIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-4v4h-2v-4H9V9h4V5h2v4h4v2z"/>
+  </svg>
+);
+
+const VMIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M4 2C2.9 2 2 2.9 2 4v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4zm0 2h16v16H4V4zm2 2v2h2V6H6zm4 0v2h2V6h-2zm4 0v2h2V6h-2zm4 0v2h2V6h-2zM6 10v2h2v-2H6zm4 0v2h2v-2h-2zm4 0v2h2v-2h-2zm4 0v2h2v-2h-2zM6 14v2h2v-2H6zm4 0v2h2v-2h-2zm4 0v2h2v-2h-2zm4 0v2h2v-2h-2z"/>
+  </svg>
+);
+
+const AtlassianIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M7.07 11.42c-.15-.34-.19-.48-.19-.67a1.15 1.15 0 0 1 .43-.86 1.11 1.11 0 0 1 .81-.36c.31 0 .62.19.81.48l6.4 11.05a.87.87 0 0 1-.73 1.34H9.9a.87.87 0 0 1-.73-.4z"/>
+    <path fill="currentColor" d="M11.65 1.6L5.32 13.5a.87.87 0 0 0 .73 1.34h4.75a.87.87 0 0 0 .73-.4l3.33-5.76c.58-1 .58-2.24 0-3.24L11.65 1.6a.87.87 0 0 0-1.46 0z"/>
+  </svg>
+);
+
+const SlackIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"/>
+  </svg>
+);
+
+const ServiceNowIcon = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="h-6 w-6 text-accent">
+    <path fill="currentColor" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 21.6c-5.307 0-9.6-4.293-9.6-9.6S6.693 2.4 12 2.4s9.6 4.293 9.6 9.6-4.293 9.6-9.6 9.6zm4.8-6a1.2 1.2 0 0 1-1.2 1.2H8.4a1.2 1.2 0 0 1-1.2-1.2v-3.2a1.2 1.2 0 0 1 1.2-1.2h7.2a1.2 1.2 0 0 1 1.2 1.2v3.2z"/>
+  </svg>
+);
+
+
 const Skills = () => {
   const phpSubSkills = [
     { name: "Laravel", icon: <LaravelIcon /> },
@@ -220,18 +348,35 @@ const Skills = () => {
     { name: "Security Hardening & Compliance", icon: <LockIcon /> },
     { name: "SOC Operations", icon: <CpuIcon /> },
     { name: "Vulnerability & Risk Assessment", icon: <BugIcon /> },
+    { name: "Cyber Threat Intelligence", icon: <ThreatIntelIcon /> },
+    { name: "MITRE ATT&CK Framework", icon: <MitreIcon /> },
+    { name: "Cyber Kill Chain", icon: <KillChainIcon /> },
+    { name: "Digital Forensics & Incident Analysis", icon: <ForensicsIcon /> },
+    { name: "Endpoint Detection & Response", icon: <EDRIcon /> },
+    { name: "Reverse Engineering", icon: <ReverseEngIcon /> },
+    { name: "Cryptographic Algorithms", icon: <CryptoIcon /> }
   ];
 
   const securityTools = [
     { name: "YARA", icon: <TargetIcon /> },
-    { name: "Wireshark", icon: <WiresharkIcon /> }, // Updated here
+    { name: "Wireshark", icon: <WiresharkIcon /> },
     { name: "Suricata", icon: <NetworkIcon /> },
     { name: "Splunk", icon: <DatabaseBackupIcon /> },
     { name: "CrowdStrike", icon: <ShieldIcon /> },
     { name: "Metasploit", icon: <CodeIcon /> },
     { name: "Nmap", icon: <TerminalIcon /> },
     { name: "Burp Suite", icon: <BugIcon /> },
-  ];
+    { name: "Ghidra", icon: <GhidraIcon /> },
+    { name: "PEstudio", icon: <PEStudioIcon /> },
+    { name: "AnyRun", icon: <AnyRunIcon /> },
+    { name: "Virustotal", icon: <VirusTotalIcon /> },
+    { name: "Shodan", icon: <ShodanIcon /> },
+    { name: "Nessus", icon: <NessusIcon /> },
+    { name: "Detect It Easy (DIE)", icon: <DIEIcon /> },
+    { name: "BinText", icon: <BinTextIcon /> },
+    { name: "Autopsy", icon: <AutopsyIcon /> },
+    { name: "Sysmon", icon: <SysmonIcon /> },
+ ];
   
   const programmingSkills = [
     { name: "Python", icon: <PythonIcon /> },
@@ -254,7 +399,11 @@ const Skills = () => {
     { name: "Insomnia", icon: <InsomniaTIcon /> },
     { name: "Postman", icon: <PostmanIcon /> },
     { name: "CI/CD Pipeline", icon: <CICDIcon /> },
-  ];
+    { name: "Virtual Machines", icon: <VMIcon /> },
+    { name: "Atlassian", icon: <AtlassianIcon /> },
+    { name: "Slack", icon: <SlackIcon /> },
+    { name: "ServiceNow", icon: <ServiceNowIcon /> },
+ ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
