@@ -68,7 +68,7 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
       link: "https://app.letsdefend.io/certificate/show/a3172fab-50c0-4c88-9e80-f96c5179dd23"
     },
     {
-      name: "AWS SycOps",
+      name: "AWS Certified SysOps Administrator - Associate",
       issuer: "AWS",
       date: "Expected July 2025",
       logo: "/placeholder.svg",
