@@ -32,6 +32,15 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
       color: "from-blue-500/20 to-cyan-400/20"
     },
     {
+      title: "Building a Malware Analysis Lab & Analyzing Static & Dynamic Malware",
+      description: "We have tried to build a malware analysis lab to examine static and dynamic malware samples. Analyzed file behaviour, strings, API calls, and registry changes using tools like PEiD, Ghidra, Procmon, and Wireshark. The goal was to understand malware functionality and indicators of compromise.",
+      image: "https://www.pexels.com/photo/person-using-black-laptop-computer-5475752/",
+      tags: ["Malware", "Detection", "Threat Analysis", "Cybersecurity"],
+      githubUrl: "https://github.com/ShowrenChowdhury21/Building-a-Malware-Analysis-Lab-and-Analyzing-Static-and-Dynamic-Malware",
+      period: "May 2025",
+      color: "from-red-500/20 to-orange-400/20"
+    },
+    {
       title: "Oracle Padding Attack on RSA",
       description: "Conducted a simulation of the Oracle Padding Attack on cryptographic implementations, identifying three major flaws in the system architecture.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=500",
@@ -41,40 +50,49 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
       color: "from-purple-500/20 to-pink-400/20"
     },
     {
+      title: "Analyzing & Investigating Web Attacks",
+      description: "This project showcases my hands-on investigation of web-based attacks via LetsDefend’s SOC Analyst path. It covers HTTP log analysis, detection of threats like command injection, alert triage, and incident handling using SIEM tools and threat intelligence techniques.",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=500",
+      tags: ["Web Attacks", "Cybersecurity", "Security Analysi", "Threat Analysis"],
+      githubUrl: "https://github.com/ShowrenChowdhury21/Analyzing-and-Investigating-Web-Attacks",
+      period: "May 2025",
+      color: "from-green-500/20 to-emerald-400/20"
+    },
+    {
+      title: "Quantum Computing in recent era of cryptography",
+      description: "Quantum computing threatens current cryptographic systems by breaking algorithms based on factoring and discrete logs. This paper explores quantum attacks, assesses post-quantum cryptography (e.g., lattice-based), and urges collaboration for secure migration to quantum-resistant standards.",
+      image: "https://unsplash.com/photos/background-pattern-ERdTJQTtsbE",
+      tags: ["Quantum Computing", "cryptography", "Recent Development", "Cybersecurity"],
+      githubUrl: "https://github.com/ShowrenChowdhury21/Quantum-Computing-in-recent-era-of-cryptography",
+      period: "November 2024",
+      color: "from-yellow-500/20 to-amber-400/20"
+    },
+    {
+      title: "Honeypot Deployment in Smart Grid for enhanced security",
+      description: "Smart grids increase cyber risks in systems like SCADA and IoT. Honeypots, as deception tools, detect threats and profile attackers. This study explores their types, challenges, and AI-based advances, supporting their integration into standards like NIST CSF and IEC 62351.",
+      image: "https://unsplash.com/photos/a-small-toy-sitting-on-top-of-a-desk-next-to-a-keyboard-NaBZhyPD2uc",
+      tags: ["Honeypot Deployment", "Smart Grid", "Cloud", "Security"],
+      githubUrl: "https://github.com/ShowrenChowdhury21/Honeypot-deployment-in-Smart-Grid-for-enhanced-security",
+      period: "April 2025",
+      color: "from-sky-500/20 to-blue-400/20"
+    },
+    {
+      title: "Face recognition using pre trained inception model using transfer learning",
+      description: "In this project, we will be using a pre-trained inception model inspired by Googles FaceNet to create a face recognition model that trains on custom dataset. This project was done for my university course Computer Vision and Pattern recognition.",
+      image: "https://unsplash.com/photos/a-man-with-blue-eyes-and-a-black-background-GkwnyqRMD70",
+      tags: ["Transfer learning", "Face recognition", "Google FaceNet", "Deep Learning"],
+      githubUrl: "https://github.com/ShowrenChowdhury21",
+      period: "2020",
+      color: "from-blue-500/20 to-cyan-400/20"
+    },
+    {
       title: "Secure API Implementation with RabbitMQ",
       description: "Implemented secure API communication using RabbitMQ, enhancing data transmission security and improving response time efficiency by 40%.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=500",
       tags: ["API Security", "RabbitMQ", "System Architecture", "Performance Optimization"],
       githubUrl: "https://github.com/ShowrenChowdhury21",
       period: "2022",
-      color: "from-green-500/20 to-emerald-400/20"
-    },
-    {
-      title: "Intrusion Detection System with ML",
-      description: "Built a custom IDS using machine learning algorithms to identify and classify abnormal network behaviors with 92% accuracy.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=500",
-      tags: ["Machine Learning", "Network Security", "Python", "Data Analysis"],
-      githubUrl: "https://github.com/ShowrenChowdhury21",
-      period: "2023",
-      color: "from-red-500/20 to-orange-400/20"
-    },
-    {
-      title: "Blockchain Security Analysis Framework",
-      description: "Developed a framework for analyzing security vulnerabilities in smart contracts and blockchain implementations.",
-      image: "https://images.unsplash.com/photo-1639762681057-408e52192e55?auto=format&fit=crop&q=80&w=500",
-      tags: ["Blockchain", "Smart Contracts", "Security Analysis", "Ethereum"],
-      githubUrl: "https://github.com/ShowrenChowdhury21",
-      period: "2023",
-      color: "from-yellow-500/20 to-amber-400/20"
-    },
-    {
-      title: "Cloud Security Posture Management Tool",
-      description: "Created an automated tool for assessing and managing security posture across multi-cloud environments.",
-      image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=500",
-      tags: ["Cloud Security", "AWS", "Azure", "Automation"],
-      githubUrl: "https://github.com/ShowrenChowdhury21",
-      period: "2024",
-      color: "from-sky-500/20 to-blue-400/20"
+      color: "from-purple-500/20 to-pink-400/20"
     }
   ];
 
