@@ -81,15 +81,24 @@ const ProjectsList = ({ showAll = false }: ProjectsListProps) => {
       description: "In this project, we will be using a pre-trained inception model inspired by Googles FaceNet to create a face recognition model that trains on custom dataset. This project was done for my university course Computer Vision and Pattern recognition.",
       image: "https://img.freepik.com/free-photo/facial-recognition-software_52683-104208.jpg?t=st=1748093694~exp=1748097294~hmac=1bffdfc5a58a168a9f79e9681baa0cf72d988fb31eb02627df51ce0e4254880e&w=2000",
       tags: ["Transfer learning", "Face recognition", "Google FaceNet", "Deep Learning"],
-      githubUrl: "https://github.com/ShowrenChowdhury21",
+      githubUrl: "https://github.com/ShowrenChowdhury21/Face-recognition-using-pre-trained-inception-model-transfer-learning-",
       period: "2020",
       color: "from-blue-500/20 to-cyan-400/20"
     },
     {
-      title: "Secure API Implementation with RabbitMQ",
-      description: "Implemented secure API communication using RabbitMQ, enhancing data transmission security and improving response time efficiency by 40%.",
+      title: "Building a SOC LAB at Home",
+      description: "We have tried to built a SOC lab at home to simulate real-world cybersecurity operations. Deployed tools like SIEM, IDS, and EDR for threat detection and response. Configured virtual machines to generate logs and tested attack scenarios to practice log analysis, alert triage, and incident handling.",
+      image: "https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150165975.jpg",
+      tags: ["SOC analysis", "Cybersecurity", "Threat Analysis", "Blue Team"],
+      githubUrl: "https://github.com/ShowrenChowdhury21/Building-a-SOC-LAB-at-Home",
+      period: "2020",
+      color: "from-yellow-500/20 to-amber-400/20"
+    },
+    {
+      title: "Secure API Implementation with RabbitMQ and Docker",
+      description: "Implemented secure API communication using RabbitMQ, enhancing data transmission security and improving response time efficiency by 40% using Docker.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=500",
-      tags: ["API Security", "RabbitMQ", "System Architecture", "Performance Optimization"],
+      tags: ["API Security", "RabbitMQ", "System Architecture", "Docker"],
       githubUrl: "https://github.com/ShowrenChowdhury21",
       period: "2022",
       color: "from-purple-500/20 to-pink-400/20"
