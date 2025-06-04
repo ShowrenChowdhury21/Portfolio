@@ -50,7 +50,7 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
       link: "https://app.letsdefend.io/certificate/show/a40eefce-cdf5-482e-91eb-6ec0ddcf3512"
     },
     {
-      name: "Digital Forensics and Incident Response Certification",
+      name: "Digital Forensics and Incident Response",
       issuer: "Let's Defend",
       date: "2025",
       logo: "/placeholder.svg",
