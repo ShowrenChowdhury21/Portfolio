@@ -50,6 +50,15 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
       link: "https://app.letsdefend.io/certificate/show/a40eefce-cdf5-482e-91eb-6ec0ddcf3512"
     },
     {
+      name: "Digital Forensics and Incident Response Certification",
+      issuer: "Let's Defend",
+      date: "2025",
+      logo: "/placeholder.svg",
+      color: "from-cyan-400 to-cyan-600",
+      linkText: "View Certificate",
+      link: "https://app.letsdefend.io/certificate/show/75a59eca-2c3e-4414-845c-99577bd08e7e"
+    },
+    {
       name: "Malware Analysis Path",
       issuer: "Let's Defend",
       date: "2025",
@@ -65,7 +74,7 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
       logo: "/placeholder.svg",
       color: "from-cyan-400 to-cyan-600",
       linkText: "View Certificate",
-      link: "https://app.letsdefend.io/certificate/show/a3172fab-50c0-4c88-9e80-f96c5179dd23"
+      link: "https://app.letsdefend.io/certificate/show/85497e6b-4433-4239-bc52-985ceafc2663"
     },
     {
       name: "AWS Certified SysOps Administrator - Associate",
