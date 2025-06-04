@@ -42,7 +42,7 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
     },
     {
       name: "SOC Analyst Path",
-      issuer: "Let's Defend",
+      issuer: "LetsDefend",
       date: "2025",
       logo: "/placeholder.svg",
       color: "from-red-400 to-red-600",
@@ -51,7 +51,7 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
     },
     {
       name: "Digital Forensics and Incident Response",
-      issuer: "Let's Defend",
+      issuer: "LetsDefend",
       date: "2025",
       logo: "/placeholder.svg",
       color: "from-cyan-400 to-cyan-600",
@@ -60,7 +60,7 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
     },
     {
       name: "Malware Analysis Path",
-      issuer: "Let's Defend",
+      issuer: "LetsDefend",
       date: "2025",
       logo: "/placeholder.svg",
       color: "from-yellow-400 to-yellow-600",
@@ -69,7 +69,7 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
     },
     {
       name: "Information Security Specialist",
-      issuer: "Let's Defend",
+      issuer: "LetsDefend",
       date: "2025",
       logo: "/placeholder.svg",
       color: "from-cyan-400 to-cyan-600",
