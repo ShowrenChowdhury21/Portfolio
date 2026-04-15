@@ -34,7 +34,7 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
     {
       name: "CompTIA Security+",
       issuer: "CompTIA",
-      date: "Expected June 2025",
+      date: "Expected June 2026",
       logo: "/placeholder.svg",
       color: "from-green-400 to-green-600",
       linkText: "In Progress",
@@ -72,9 +72,18 @@ const CertificationsList = ({ showAll = false, limit = 6 }: CertificationsListPr
       issuer: "LetsDefend",
       date: "2025",
       logo: "/placeholder.svg",
-      color: "from-cyan-400 to-cyan-600",
+      color: "from-red-400 to-red-600",
       linkText: "View Certificate",
       link: "https://app.letsdefend.io/certificate/show/85497e6b-4433-4239-bc52-985ceafc2663"
+    },
+    {
+      name: "Splunk Fundamentals",
+      issuer: "Thinkcloudly",
+      date: "2025",
+      logo: "/placeholder.svg",
+      color: "from-blue-400 to-blue-600",
+      linkText: "View Certificate",
+      link: "https://drive.google.com/file/d/1X_njb9EVt0iRBoeju8-MKCrBYabVefJl/view?usp=drive_link"
     },
     {
       name: "AWS Certified SysOps Administrator - Associate",
