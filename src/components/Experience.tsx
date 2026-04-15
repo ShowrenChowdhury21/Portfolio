@@ -5,33 +5,47 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Experience = () => {
   const experiences = [
+      {
+      position: "Technical Support Representative",
+      company: "Alorica",
+      location: "Montreal, Quebec, Canada",
+      period: "Oct 2025 – Present",
+      description: [
+        "Troubleshooting complex device and system issues, resolving configuration, connectivity, and performance problems while ensuring minimal disruption for users.",
+        "Delivering structured technical guidance to consumers, combining strong communication skills.",
+        "UDocumenting incidents, system behaviors, and resolutions in ticketing tools, while maintaining secure records.",
+        "Debugged services, with working knowledge of OOP, database optimization, and API integrations and CI/CD pipeline management.",
+        "CIdentifying recurring technical issues and trends, sharing insights with cross-functional teams to support productimprovements and risk mitigation."
+      ],
+      skills: ['Troubleshooting', 'Strong communication skill', 'Ticketing System', 'System configuration', 'Documentation']
+     },
+     {
+      position: "Application Support Engineer",
+      company: "Field Nation - Bangladesh",
+      location: "Dhaka, Bangladesh",
+      period: "Feb 2023 – June 2023",
+      description: [
+        "Monitored and responded to application support tickets promptly, ensuring timely follow-up and resolution using",
+        "Troubleshoot application issues in Windows and Linux environments using documented procedures.",
+        "Used SQL queries, scripts, and support tools to investigate issues and resolve incidents more efficiently.",
+        "Debugged services, with working knowledge of OOP, database optimization, and API integrations and CI/CD pipeline management.",
+        "Collaborated with cross-functional teams to improve security triage, documentation, and overall support processes."
+      ],
+      skills: ['Grafana', 'Prometheus', 'PostgreSQL', 'Alert monitoring and response', 'Log analysis', 'REST API testing', 'System uptime & availability tracking', 'Performance monitoring']
+    },
     {
       position: "Software Engineer II",
       company: "AiTrade INC.",
       location: "Orlando, Florida, US",
       period: "July 2021 - January 2023",
       description: [
-        "Designed applications following Agile methodology for high-speed trade executions by securely integrating embedded crypto APIs, improving client satisfaction over six months.",
-        "Developed and secured backend infrastructure using Symfony, MySQL, and PostgreSQL, reducing security vulnerabilities by 30% during audits and improving system reliability.",
-        "Applied security best practices to harden Docker container images, decreasing vulnerability exposure by 35% and eliminating three critical system bottlenecks.",
-        "Implemented secure API communication using RabbitMQ, enhancing data transmission security and improving response time efficiency by 40%.",
-        "Got promoted within four months for streamlining team communication, reducing deployment errors by 20%, and maintaining high project delivery standards."
+        "Developed and deployed secure crypto and trading APIs using TLS encryption and authentication, improving transaction integrity and reducing fraud risk by 40%.",
+        "Secured backend infrastructure by enforcing access controls, encryption at rest, vulnerability mitigation, and code reviews, reducing system weaknesses by 30%.",
+        "Hardened Docker environments by auditing container configurations and applying security best practices.",
+        "Performed security log analysis and API monitoring to detect suspicious activity and escalate incidents via internal alerts and Jira workflows, documenting procedures and remediation in Confluence to support audit readiness.",
+        "Configured CI/CD pipeline, RabbitMQ with TLS, certificate-based authentication, and key rotation to protect message integrity."
       ],
-      skills: ['Symfony', 'MySQL', 'PostgreSQL', 'Docker', 'RabbitMQ', 'Agile', 'API Security', 'Technical Documentation']
-    },
-    {
-      position: "IT Support Internship",
-      company: "ACI Group Ltd.",
-      location: "Dhaka, Bangladesh",
-      period: "March 2021 - June 2021",
-      description: [
-        "Provided comprehensive technical support to over 200 users across multiple departments, troubleshooting hardware and software issues.",
-        "Managed and maintained Active Directory, creating and configuring user accounts, group policies, and security permissions.",
-        "Assisted in firewall configuration and monitoring, helping to strengthen network security protocols.",
-        "Performed regular system maintenance and updates to ensure optimal performance and security compliance.",
-        "Documented technical solutions and created user guides for common IT issues, reducing repeat support requests by 25%."
-      ],
-      skills: ['Active Directory', 'Firewall Configuration', 'Technical Documentation', 'Technical Support', 'Troubleshooting']
+      skills: ['Symfony', 'MySQL', 'PostgreSQL', 'Docker', 'RabbitMQ', 'Agile', 'API Security', 'CI/Cd Pipeline', 'Technical Documentation']
     }
   ];
 
