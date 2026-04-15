@@ -19,9 +19,9 @@ const Hero = () => {
     
     // Set the file URL based on the selected CV type
     if (type === 'IT Support') {
-      fileUrl = '/resumes/showren_chowdhury_it_support.pdf';
+      fileUrl = '/showren_chowdhury_it_support.pdf';
     } else if (type === 'Cybersecurity Analyst') {
-      fileUrl = '/resumes/showren_chowdhury_cybersecurity.pdf';
+      fileUrl = '/showren_chowdhury_cybersecurity.pdf';
     }
     
     // Create an anchor element
