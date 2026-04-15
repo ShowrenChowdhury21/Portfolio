@@ -27,13 +27,13 @@ const About = () => {
     },
     {
       icon: <Server className="h-10 w-10 text-accent" />,
-      title: "IT Support",
-      description: "End-to-end technical support including hardware troubleshooting, software configuration, and system optimization."
+      title: "Application and System Support",
+      description: "End-to-end application and system support including hardware troubleshooting, software configuration, and system optimization and monitoring."
     },
     {
       icon: <Activity className="h-10 w-10 text-accent" />,
-      title: "Network Monitoring",
-      description: "Proactive network performance monitoring using advanced tools to ensure optimal uptime and reliability."
+      title: "System and Network Monitoring",
+      description: "Proactive system and network performance monitoring using advanced tools to ensure optimal uptime and reliability."
     }
   ];
 
@@ -47,7 +47,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-8"></div>
           <p className="max-w-3xl mx-auto text-lg text-white/80">
-            I'm a dedicated Cybersecurity Analyst currently pursuing a Master of Engineering in Information Systems Security 
+            I am a Cybersecurity and Application Support analyst with a Master of Engineering degree in Information Systems Security 
             at Concordia University. With experience in security threat analysis, system monitoring, malware investigation, 
             and incident response, I'm passionate about implementing robust security solutions and staying ahead of emerging threats.
           </p>
