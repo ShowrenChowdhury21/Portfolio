@@ -308,7 +308,7 @@ const Hero = () => {
                     </button>
                     <button 
                       className="w-full text-left px-4 py-3 hover:bg-primary/10 transition-colors flex items-center space-x-2 border-b border-primary/10"
-                      onClick={() => handleCVDownload('IT Support')}
+                      onClick={() => handleCVDownload('Application Support Analyst')}
                     >
                       <BriefcaseBusiness className="h-5 w-5 text-primary/80" />
                       <span>Application Support Analyst</span>
