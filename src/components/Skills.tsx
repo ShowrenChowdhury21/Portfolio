@@ -384,7 +384,7 @@ const Skills = () => {
     { name: "NodeJs", icon: <NodejsIcon />, subSkills: nodeSubSkills },
     { name: "C#", icon: <CSharpIcon /> },
     { name: "SQL", icon: <SQLIcon /> },
-    { name: "Bash", icon: <BashIcon /> },
+    { name: "Shell & Bash", icon: <BashIcon /> },
     { name: "PowerShell", icon: <PowerShellIcon /> },
   ];
 
@@ -403,6 +403,8 @@ const Skills = () => {
     { name: "Atlassian", icon: <AtlassianIcon /> },
     { name: "Slack", icon: <SlackIcon /> },
     { name: "ServiceNow", icon: <ServiceNowIcon /> },
+    { name: "Grafana", icon: <RabbitMQIcon /> },
+    { name: "Prometheus", icon: <RabbitMQIcon /> },
  ];
 
   const containerVariants = {
