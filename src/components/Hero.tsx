@@ -311,7 +311,7 @@ const Hero = () => {
                       onClick={() => handleCVDownload('IT Support')}
                     >
                       <BriefcaseBusiness className="h-5 w-5 text-primary/80" />
-                      <span>IT Support</span>
+                      <span>Application Support Analyst</span>
                     </button>
                   </div>
                 </div>
